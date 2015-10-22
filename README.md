@@ -80,7 +80,7 @@ __git reset HEAD file__
 远程仓库相关
 
 <a name="3.1" />
-#### ssh
+#### 3.1 ssh
 
 1. 创建ssh-key   
 > $ ssh-keygen -t rsa -C "youremail@example.com"   
@@ -91,7 +91,7 @@ _ref:https://help.github.com/articles/generating-ssh-keys/_
 >另一种方式remote.origin.url=https://username:passwd@github.com/username/project.git   
 
 <a name="3.2" />
-#### 操作远程仓库
+#### 3.2 操作远程仓库
 
 要关联一个远程库，使用命令`git remote add origin git@server-name:path/repo-name.git`；   
 关联后，使用命令`git push -u origin master`第一次推送master分支的所有内容；加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。   
