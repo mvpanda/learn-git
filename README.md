@@ -82,8 +82,7 @@ __git reset HEAD file__
 <a name="3.1" />
 #### 3.1 ssh
 
-1. 创建ssh-key   
-> $ ssh-keygen -t rsa -C "youremail@example.com"   
+1. 创建ssh-key `ssh-keygen -t rsa -C "youremail@example.com"`   
 1. 登陆GitHub，打开“Account settings”，“SSH Keys”页面，然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容。   
 
 _ref:https://help.github.com/articles/generating-ssh-keys/_
