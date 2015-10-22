@@ -61,9 +61,9 @@ __git rm__
 `git rm`或者`rm`删除文件。   
 
 __git diff__   
-1. `git diff`：是查看working tree与index file的差别的。   
-1. `git diff --cached`：是查看index file与commit的差别的。   
-1. `git diff HEAD`：是查看working tree和commit的差别的。（你一定没有忘记，HEAD代表的是最近的一次commit的信息）   
+* `git diff`：是查看working tree与index file的差别的。
+* `git diff --cached`：是查看index file与commit的差别的。 
+* `git diff HEAD`：是查看working tree和commit的差别的。（你一定没有忘记，HEAD代表的是最近的一次commit的信息）
 
 __git checkout file...__   
 命令`git checkout -- readme.txt`意思就是，把readme.txt文件在工作区的修改全部撤销，这里有两种情况：   
