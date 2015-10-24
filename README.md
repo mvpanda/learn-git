@@ -38,7 +38,7 @@ Copied from: http://www.liaoxuefeng.com/
 |:---|:---|
 |git log|穿梭前，用git log可以查看提交历史，以便确定要回退到哪个版本。|
 |git reflog|要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本。|
-|git reset [--hard] [commit_id\|HEAD^\|HEAD^^\|HEAD~5\]|`HEAD`指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用该命令。当使用`--hard`时，指定版本库；当不使用`--hard`时，指定暂存区|
+|git reset [--hard] [commit_id\|HEAD^\|HEAD^^\|HEAD~5\]|`HEAD`指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用该命令。当使用`--hard`时，指定工作区向版本库看齐；当不使用`--hard`时，指定暂存区向版本库看齐|
 
 <a name="2.2" />
 #### 2.2 工作区和暂存区
